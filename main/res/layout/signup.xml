@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:background="#AFC289"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WateringApp - Join Our Family!"
+        android:textSize="10pt"
+        android:padding="10dp"/>
+  <GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:hint="Name"/>
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:layout_row="1"
+        android:layout_column="0"
+        />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:hint="Last Name"/>
+
+
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="Gender: " />
+    <RadioGroup
+        android:id="@+id/rgGender">
+
+        <RadioButton
+            android:id="@+id/rbM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="Male"
+            />
+
+        <RadioButton
+            android:id="@+id/rbF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            />
+
+        <RadioButton
+            android:id="@+id/rbO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:layout_row="3"
+        android:layout_column="0"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:hint="Email"/>
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:layout_row="4"
+        android:layout_column="0"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:hint="Password"/>
+
+
+</GridLayout>
+
+    <TextView
+        android:id="@+id/tvIsFamilyExist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Does Your Family Already signed up? " />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgIsFamilyExist"
+        android:onClick="IsFamilyExistCheck">
+        <RadioButton
+            android:id="@+id/rbFamilySigned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join a Family"
+            android:onClick="IsFamilyExistCheck"
+            />
+        <RadioButton
+            android:id="@+id/rbNewFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Family"
+            android:onClick="IsFamilyExistCheck"
+            />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tvFamSignCode"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Code: "
+        />
+
+    <EditText
+        android:id="@+id/etFamSignCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|end"
+        android:hint="Family Code"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnSubmitSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        />
+
+</LinearLayout>

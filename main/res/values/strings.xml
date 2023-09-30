@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SchoolProject1</string>
+    <string name="sign_up">Sign up</string>
+    <string name="appname">WateringApp</string>
+    <string name="homepage">Home</string>
+    <string name="familyusers">Family</string>
+    <string name="currentsystem">Live Information</string>
+</resources>

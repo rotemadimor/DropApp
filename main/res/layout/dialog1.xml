@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#AFC289"
+    android:columnCount="2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvDial"
+        android:text="Please Enter Email and Password:"
+        android:textSize="15dp"
+        android:padding="5dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etEmailDial"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#D8A139"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textSize="15dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/etPswDial"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#D8A139"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:padding="5dp"
+        android:textSize="15dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFAB00"
+        android:text="ok"
+        android:layout_marginBottom="10dp"
+        />
+</GridLayout>
+
+
