@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1076226729392",
+    "firebase_url": "https://waterapp-41df9.firebaseio.com",
+    "project_id": "waterapp-41df9",
+    "storage_bucket": "waterapp-41df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076226729392:android:0fc4e15e2bea12defea275",
+        "android_client_info": {
+          "package_name": "com.example.schoolproject1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076226729392-s6form6ea921vmu89kd7bb1cnvmr5ag7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.schoolproject1",
+            "certificate_hash": "0d2ea51017477d6fd855cbf995ae8fb056010318"
+          }
+        },
+        {
+          "client_id": "1076226729392-ctf8dhveojf299ge1kgi0e37rkl7kjhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9mtEkLNPYCXVgaLVA2wmZQFgb1BpxE3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076226729392-ctf8dhveojf299ge1kgi0e37rkl7kjhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
